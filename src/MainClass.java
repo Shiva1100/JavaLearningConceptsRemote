@@ -14,9 +14,27 @@ public class MainClass {
 		System.out.println("The result of CourNme SusbString-"+courName.trim());
 		String listOfWords = "1 of the student is wonderfull batch and learning-Java";
 		mc.splitOfStr(listOfWords);
-
+		String res = mc.revStrig("Abhilash");
+		System.out.println("result of String is "+res);
 	}
 	
+	public String revStrig(String str) {
+		char ch; String revstr="";
+		
+		for (int i=0;i<str.length();i++)
+		{
+			ch=str.charAt(i);
+			revstr=ch+revstr;
+		
+	}
+		System.out.println("The reverse String is :"+revstr);
+		return revstr;
+		
+		
+		
+		
+		
+	}
 	
 	public String subOfString(String str, int a) {
 		
@@ -31,7 +49,9 @@ public class MainClass {
 			String eachItem = ar1[i];
 			System.out.println("The Invidiual items "+eachItem);
 		}
+		
 
 		
 	}
+	
 }
