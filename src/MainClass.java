@@ -8,7 +8,7 @@ public class MainClass {
 		// creating the object name 
 		MainClass mc = new MainClass();
 		// calling the method : objectName.method();
-		String result = mc.subOfString("Abhilash", 3);
+		String result = mc.subOfString("hemanth", 3);
 		System.out.println("The resulf of subsString "+result);
 		String courName = mc.subOfString("New Selenium Course", 3);
 		System.out.println("The result of CourNme SusbString-"+courName.trim());
@@ -19,6 +19,10 @@ public class MainClass {
 	
 	
 	public String subOfString(String str, int a) {
+
+		
+		
+		
 		
 		String subsStr = str.substring(a,5);
 		return subsStr;
@@ -30,8 +34,28 @@ public class MainClass {
 		for(int i=0;i<lengthOfAr1;i++) {
 			String eachItem = ar1[i];
 			System.out.println("The Invidiual items "+eachItem);
+			
 		}
 
+		public revstring(string str) {
+			
+			char ch;
+			String str="ring";
+			for (int i=0;i<str.length;i++)
+			{
+				ch=str.charAt(i);
+				rev str=
+			}
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
 		
 	}
 }
