@@ -14,6 +14,7 @@ public class MainClass {
 		System.out.println("The result of CourNme SusbString-"+courName.trim());
 		String listOfWords = "1 of the student is wonderfull batch and learning-Java";
 		mc.splitOfStr(listOfWords);
+	
 
 	}
 	
@@ -34,4 +35,10 @@ public class MainClass {
 
 		
 	}
+	
+	public void newStr() {
+		System.out.println("the output is ");
+	}
+	
+	
 }
