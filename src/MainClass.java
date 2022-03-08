@@ -19,6 +19,7 @@ public class MainClass {
 	}
 	
 	public String revStrig(String str) {
+		
 		char ch; String revstr="";
 		
 		for (int i=0;i<str.length();i++)
