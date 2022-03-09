@@ -16,8 +16,17 @@ public class MainClass {
 		mc.splitOfStr(listOfWords);
 		String res = mc.revStrig("Abhilash");
 		System.out.println("result of String is "+res);
+		int res1=numOfMonths();
+		System.out.println("Total number of Months "+res1);
+		
 	}
 	
+	public static int numOfMonths() {
+		int months=12;
+		return months;
+		
+		
+	}
 	public String revStrig(String str) {
 		
 		char ch; String revstr="";
